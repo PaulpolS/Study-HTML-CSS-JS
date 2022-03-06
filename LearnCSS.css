@@ -1,0 +1,123 @@
+*{
+    background-color: blanchedalmond;
+    /* อันนี้คือการทำ background ให้เป็นสีต่างๆ */
+}
+
+#H1Test1{
+    color: blue;
+    border: 100px;
+}
+
+/* ส่วนของการขีดเส้นต่างๆ */
+
+#text-none{
+    text-decoration: none;
+}
+#text-underline{
+    text-decoration: underline;
+}
+#text-overline{
+    text-decoration: overline;
+}
+#text-line-through{
+    text-decoration: line-through;
+}
+
+/* การจัดการ text align */
+#center {
+    text-align:center;
+}
+#left{
+    text-align: left;
+}
+#right{
+    text-align: right;
+}
+
+/*การใช้Boxแบบต่างๆ*/
+
+#box-1{
+    max-width: 200px;
+    max-height: 200px;
+    background-color: blue;
+    /*กำหนด style เส้นขอบ เอาแบบทึบ หน้า10px*/
+    border-style: solid;
+    border-width: 10px;
+    /*กำหนดเส้นโค้ง*/
+    border-radius: 10px;
+    /* ข้อความในกล่องให้อยู่ตรงกลาง */
+    text-align: center;
+    /* จัดการ padding */
+    padding-top:50px;
+    padding-bottom: 50px;
+    /* จัดการ margin*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#box-image{
+    width: 600px;
+    height: 300px;
+    
+    background-image: url(https://icatcare.org/app/uploads/2018/07/Thinking-of-getting-a-cat.png);   
+}
+#box-image h1{
+    opacity: 50%;
+    float:left ;
+}
+.container-wrap{
+    display: flex;
+    box-sizing: border-box;
+    /* ทำให้เนื้อหาเป็นแบบบนลงล่าง */
+    flex-wrap: wrap;
+}
+.container-nowrap{
+    display: flex;
+    box-sizing: border-box;
+    /* ทำให้เนื้อหาเป็นเบียดไปทางขวา */
+    flex-wrap:nowrap;
+}
+
+#flex1{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+#flex2{
+    width: 200px;
+    height: 200px;
+    background-color:chartreuse;
+}
+#flex3{
+    width: 200px;
+    height: 200px;
+    background-color:blue;
+}
+#flex4{
+    width: 200px;
+    height: 200px;
+    background-color:aquamarine;
+}
+#flex5{
+    width: 200px;
+    height: 200px;
+    background-color:brown;
+}
+#flex6{
+    width: 200px;
+    height: 200px;
+    background-color:darkgreen;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study HTML</title>
+</head>
+<body>
+
+    <p style="color:red"><big><ins> ***ขอบคุณรูปเอกสารต่างๆจาก youtube kongruksiam***</ins></big></p>
+    <hr>
+
+    <p><big><ins>รวมการใช้คำสั่ง h1 - h6</ins></big></p>
+    <h1> Size H1</h1>
+    <h2> Size H2</h2>
+    <h3> Size H3</h3>
+    <h4> Size H4</h4>
+    <h5> Size H5</h5>
+    <hr> <!-- เส้นคั่น-->
+
+    <p><big><ins>รวมการใช้คำสั่ง p กับคำสั่งต่างๆ</ins></big></p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <!--ใช้ lorem อยากได้ยาวๆก็ lorem100-->
+    <!--ใช้ p กับคำสั่งต่างๆ-->
+    <p><small>P With small</small></p>
+    <p><big>P With Big</big></p>
+    <p><b>P With b</b></p>
+    <p><big><b>P With Big and B</b></big></p>
+    <p><big><i>P With Big and i</i></big></p>
+
+    <br> <!-- เป็นการเว้นบรรทัดใหม่-->
+    <p>Upper is br</p>
+    <hr>
+
+    <p>รูปจากในเครื่อง</p>
+    <img src="img/cat.jpg" width="200" height="200">
+    <br>
+    <p>รูปจาก Link</p>
+    <img src="https://www.rd.com/wp-content/uploads/2021/01/GettyImages-1175550351.jpg?resize=1024,670" width="200" height="200">
+    <hr>
+
+    <h1><ins>รวมการใช้ UL OL</ins></h1>
+
+    <ul type="disc">การใช้  UL dice
+        <li>content 1</li>
+        <li>content 2</li>
+        <li>content 3</li>
+    </ul>
+
+    <ul type="circle">การใช้  UL circle
+        <li>content 1</li>
+        <li>content 2</li>
+        <li>content 3</li>
+    </ul>
+
+    <ul type="square">การใช้  UL square
+        <li>content 1</li>
+        <li>content 2</li>
+        <li>content 3</li>
+    </ul>
+
+    <ol type="A">การใช้ OL A
+        <li>content 1</li>
+        <li>content 2</li>
+        <li>content 3</li>
+    </ol>
+
+    <ol type="a">การใช้ OL a
+        <li>content 1</li>
+        <li>content 2</li>
+        <li>content 3</li>
+    </ol>
+
+    <ol type="I">การใช้ OL I
+        <li>content 1</li>
+        <li>content 2</li>
+        <li>content 3</li>
+    </ol>
+    <hr>
+
+    <h1><ins>การใช้ Link</ins></h1>
+    <a href="http://www.google.com"><h3>คลิกเพื่อไปเวป Google</h3></a>
+    <hr>
+
+    <table border="3" width="50%" bgcolor="yellow">
+        <tr>
+          <th>ร้าน</th>
+          <th>เมนู</th>
+          <th>ราคา</th>
+        </tr>
+        <tr>
+          <td>Paul Steak House</td>
+          <td>Lamb Steak</td>
+          <td>320</td>
+        </tr>
+        <tr>
+          <td>KFC</td>
+          <td>ไก่จุกใจ</td>
+          <td>219</td>
+        </tr>
+        <tr>
+            <td>ร้านป้าป้าซอย</td>
+            <td>ข้าวหมูกรอบกระเทียม</td>
+            <td>45</td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center" bgcolor="orange">บรรทัดทัดสุด รวม</td>
+        </tr>
+    </table>
+    <hr>
+    
+    <h1><ins>ความแตกต่างระหว่าง div กับ span </ins></h1>
+    <img src="https://f.ptcdn.info/723/061/000/pklu8c9lvILk3p82Z3W-o.jpg" width="1000" height="300">
+    <div>
+        <p>div เป็น block ความกว้างมันจะเท่ากับ parent มอง div เหมือนกล่องๆ นึง ไม่ว่าตัว div จะขนาดเท่าไหร่ เมื่อมี div ใหม่มา มันก็จะขึ้นบรรทัดใหม่
+            ส่วน inline มันจะกว้างตาม content ถ้ายังเหลือที่ว่าง มันก็จะยังอยู่ใน line จนกว่าจะไม่มีที่ให้มัน มันถึงจะขึ้นบรรทัดใหม่</p>
+    </div>
+    <hr>
+
+    <h1><ins>การใช้ Form</ins></h1>
+    <img src="img/Form1.jpg" >
+    <img src="img/Form.jpg" >
+
+    <form>
+        <p><big><ins>สมัครเปิดบัญชี</ins></big></p>
+        <div align="left">
+            <label>ชื่อ : <input type="text" placeholder="กรอกชื่อจริง"></ส>
+            <label>นามสกุล : <input type="text" placeholder="กรอกนามสกุล"></label>
+            <br>
+            <label>Email : <input type="email" placeholder="กรอก Email"></label>
+            <label>Password : <input type="password" placeholder="กรอก Password"></label>
+        </div>
+        <div>
+            <label>วันเกิด</label>
+            <input type="date" id="birthday" name="birthday">
+        </div>
+        <div>
+            <label>เพศ :</label>
+            <select name="gender">
+                <option value="ไม่ระบุ" selected>Gender</option>
+                <option value="ชาย">Male</option>
+                <option value="หญิง">Female</option>
+                <option value="อื่นๆ">other</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit"value="Submit">สมัคร</button>
+        </div>
+    </form>
+    <hr>
+
+    <h1><ins>อื่นๆเพิ่มเติม</ins></h1>
+    <img src="/img/html_ex1.png" alt="">
+    <img src="/img/html_ex2.png" alt="">
+    <img src="/img/html_ex3.png" alt="">
+    <img src="/img/html_ex4.png" alt="">
+    <img src="/img/html_ex5.png" alt="">
+    <img src="/img/html_ex6.png" alt="">
+    <img src="/img/html_ex7.png" alt="">
+
+</body>
+</html>
