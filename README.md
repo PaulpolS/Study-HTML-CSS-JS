@@ -7,7 +7,9 @@ study and summary about HTML CSS JS . Big thank to KongRukSiam youtube
 เปิดไฟล์ที่เป็นHTMLดูได้เลยครับ ผมพยายามจัดหน้าเวปให้สวยอยู่ สวยอยู่ที่แปลว่าไม่ค่อยสวยนั่นแหละ 555
 
 สรุป HTML -> HTML_Study.html
+
 สรุป CSS ->LearnCSS.html
+
 สรุป JS -> Learn_JS.html
 
 ตัวอย่างสำหรับสรุป JS
